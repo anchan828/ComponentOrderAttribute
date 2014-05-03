@@ -7,6 +7,7 @@ using UnityEditor;
 using UnityEditorInternal;
 #endif
 
+[System.AttributeUsage(AttributeTargets.Class)]
 public class ComponentOrderAttribute : System.Attribute
 {
     public uint order;
